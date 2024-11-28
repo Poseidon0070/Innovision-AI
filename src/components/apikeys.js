@@ -1,6 +1,6 @@
 const apiKeys = {
-    key: process.env.REACT_APP_API_KEY,
-    base: process.env.REACT_APP_BASE_URL,
+    key: import.meta.env.VITE_API_KEY,
+    base: import.meta.env.VITE_BASE_URL,
 };
 
 export default apiKeys
